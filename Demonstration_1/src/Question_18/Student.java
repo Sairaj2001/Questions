@@ -27,7 +27,7 @@ public class Student {
 			s.add(new Student(1,"Sairaj",90));
 			s.add(new Student(2,"Barsha",99));
 			s.add(new Student(3,"Srikant",100));
-		//	Collections.sort(s, new nameComparator());
+		    //Collections.sort(s, new nameComparator());
 			for(Student student : s) {
 				System.out.println("Student Name :"+ student.sName + " Student rollno: " + student.sRoll + "Student mark: " + student.sMark);
 			}
